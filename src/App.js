@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./components/Nav";
+import Background from "./assets/background.mp4";
 import "./App.css";
 
 // npm i react-icons --save
@@ -9,7 +10,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Nav/>
+        <video src={Background} autoPlay playsInline={true} loop muted typeof='mov'>  </video>
+            <Nav/>
+
+
     </div>
   );
 }

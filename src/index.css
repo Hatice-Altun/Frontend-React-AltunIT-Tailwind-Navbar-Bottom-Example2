@@ -4,6 +4,9 @@
 
 
 @layer base {
+  background {
+
+  }
   body {
     @apply font-secondary text-lg leading-8 text-white;
   }
